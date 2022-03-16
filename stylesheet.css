@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+li,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+footer {
+  color: white;
+  background-color: #007acc;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+header {
+  background-color: #007acc;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 60%;
+}
+
+span.menu-icon {
+  color: white;
+  display: none;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+}
+
+.btn {
+  border-radius: 4px;
+  display: inline-block;
+  color: white;
+  opacity: 0.8;
+  padding: 12px 24px;
+  text-align: center;
+}
+
+.btn-wrapper {
+  animation: fade 5s;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left a {
+  color: white;
+  display: block;
+  font-size: 28px;
+  line-height: 60px;
+  float: left;
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  color: white;
+  float: left;
+  display: block;
+  line-height: 60px;
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.heading {
+  color: gray;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: bolder;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: #31a4f1;
+  box-shadow: 0 7px #1183cf;
+  cursor: pointer;
+  padding: 15px 40px;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.signup {
+  background-color: #007acc;
+}
+
+.team {
+  float: left;
+  width: 25%;
+}
+
+.team-icon {
+  position: relative;
+}
+
+.team-icon p {
+  color: white;
+  position: absolute;
+  top: 44%;
+  width: 100%;
+}
+
+.team-subtitle {
+  color: darkgray;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 15px;
+  width: 80%;
+}
+
+.team-title {
+  color: gray;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 15px;
+  width: 80%;
+}
+
+.team-wrapper {
+  background-color: whitesmoke;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.top-wrapper {
+  color: white;
+  background-image: url(background.jpg);
+  background-size: cover;
+  padding: 180px 0 100px 0;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  animation: fade 2s;
+  font-size: 42px;
+}
+
+.top-wrapper h2 {
+  animation: fade 3s;
+  font-size: 36px;
+}
+
+.top-wrapper p {
+  animation: fade 5s;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
